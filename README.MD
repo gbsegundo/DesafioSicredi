@@ -40,3 +40,16 @@ agencia;conta;saldo;status
 3202;54001-2;0,00;P
 
 3202;00321-2;34500,00;B
+  
+  
+  ## Como executar
+
+Foi criado uma aplicação SprintBoot standalone. 
+
+Pra ser executado basta rodar prompt do windows (linha de comando): java -jar sincronizacaoreceita-0.0.1-SNAPSHOT <caminho completo do arquivo arquivo_receita.csv>
+
+Onde lerá o arquivo .csv e enviará o serviço que simula a Sincronização de Contas na Receita Federal
+
+Abaixo segue o script para configuração e execução dos microserviços.
+
+
